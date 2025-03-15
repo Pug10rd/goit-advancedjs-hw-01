@@ -93,4 +93,4 @@ galleryElement.insertAdjacentHTML(
     .join('')
 );
 
-new SimpleLightbox('.gallery-link');
+new SimpleLightbox('.gallery-link', { captionsData: 'alt', captionDelay: 250 });
